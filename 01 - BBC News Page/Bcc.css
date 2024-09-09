@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+#topbar-section {
+  width: 1000px;
+  height: 40px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+#logo {
+  margin: 7px;
+  width: 90px;
+  height: 30px;
+  float: left;
+}
+
+.topbar-menu {
+  border-left: 2px solid #cccccc;
+  height: 100%;
+  float: left;
+  padding: 0px 0px 10px 0px;
+}
+
+#signin-logo {
+  height: 30px;
+  width: 40px;
+  margin: 10px;
+  float: left;
+}
+
+#singin-text {
+  font-weight: 600;
+  font-size: 13px;
+  position: relative;
+  top: 14px;
+  margin-right: 50px;
+}
+
+.topbar {
+  font-weight: 600;
+  font-size: 13px;
+  padding: 15px 10px 10px 10px;
+  height: 20px;
+}
+
+#more-options {
+  height: 10px;
+  width: 10px;
+  float: right;
+  margin-left: 50px;
+}
+
+#search-box {
+  float: left;
+  background-color: #e4e4e4;
+  border: none;
+  font-weight: 600;
+  padding: 5px;
+}
+
+#search-icon {
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#menubar-container {
+  width: 100%;
+  height: 100px;
+  background-color: #bb1919;
+}
+
+#menubar {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+#menubar2-container {
+  width: 100%;
+  height: 40px;
+  background-color: #a91717;
+  margin-top: 10px;
+}
+
+#menubar2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#menubar2 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 2px solid #cc7676;
+  position: relative;
+  top: 10px;
+}
+
+#menubar2 a:hover {
+  text-decoration: underline;
+
+}
+
+#more-options2 {
+  height: 13px;
+  width: 13px;
+  margin-left: 10px;
+  position: relative;
+}
+
+#no-border {
+  border: none !important;
+}
+
+#page-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 20px;
+  border-bottom: 2px solid #a91717;
+  width: 105px;
+}
+
+h3 a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+h3 a:hover{
+  color: #1167aB;
+}
+
+#article-summary{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#article-img {
+  width: 1000px;
+  margin: 0 auto;
+}
+
