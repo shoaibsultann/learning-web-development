@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+  border-radius: 100%;
+}
+
+#blue-circle {
+  background-color: blue;
+}
+
+#yellow-circle {
+  background-color: yellow;
+}
+
+#green-circle {
+  background-color: green;
+}
+
+
+.circle:hover{
+  cursor: pointer;
+}

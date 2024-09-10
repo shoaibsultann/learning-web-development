@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Javescript</title>
+  </head>
+  <body>
+    <!-- Step 1: Onclick Function -->
+
+    <p id="toGet">This text will be accessed through JavaScript</p>
+    <script type="text/javascript">
+      alert("Hello World");
+
+      document.getElementById("toGet").innerHTML =
+        "I am placed here through get Element Through ID";
+    </script>
+
+    <button onclick="alert('Hello in world of JavaScript');">Click Me</button>
+
+    <!-- 02 - Responding to a Click -->
+
+    <p id="text">This is some text</p>
+    <button id="Btn">Click Me</button>
+
+    <script type="text/javascript">
+      document.getElementById("Btn").onclick = function () {
+        document.getElementById("text").innerHTML =
+          "This text changed through JS functionality";
+      };
+    </script>
+
+    <!-- 03 - Adding More Content On Website -->
+
+    <p id="text">This is some text</p>
+    <button id="Btn">Click Me</button>
+    <p id="secondParagraph">
+      Javascript is most popular browsers language.......
+    </p>
+
+    <button id="secondBtn">Append Text</button>
+
+    <script type="text/javascript">
+      document.getElementById("Btn").onclick = function () {
+        document.getElementById("text").innerHTML =
+          "This text changed through JS functionality";
+      };
+
+      document.getElementById("secondBtn").onclick = function () {
+        document.getElementById("secondParagraph").innerHTML =
+          document.getElementById("secondParagraph").innerHTML +
+          "That a great news";
+      };
+    </script>
+  </body>
+</html>
